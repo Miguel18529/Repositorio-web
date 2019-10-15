@@ -1,0 +1,219 @@
+@import "Conocenos.css";
+@import "cssComoLlegar.css";
+@import "Residencia.css";
+@import "Servicios.css";
+@import "css404.css";
+@import "cssAdministracionDirector.css";
+@import "cssContacto.css";
+@import "cssInstalaciones.css";
+@import "formulario-reserva.css";
+@import "tarjeta.css";
+
+input[type=submit], input[type=button] {
+    color: white;
+    background-color: #16A5BE !important;
+    padding: 1%;
+    border: none;
+    border-radius: 2%;
+    cursor: pointer;
+    float: left;
+    margin-top: 0.2%;
+    font-style: italic;
+    word-spacing: .1em;
+}
+
+/* Son más estéticos todos los inputs si le quitamos el borde */
+input{
+    border: none;
+}
+
+input[type=submit]:hover, input[type=button]:hover{
+    background-color: #16a5be;
+}
+
+div.example1 {
+    background: url("../imagenes/panoramica1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+body{
+/*    background: url("../imagenes/fondo.jpg") no-repeat center center;
+      background-size:100% 100%;*/
+      background-color: #ffdd99;
+}
+
+.texto-chulo {
+    text-align: center;
+    font-family: Arial Black;
+    font-weight: bold;
+    font-size: 190%;
+    background: #202020;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: #FFFFFF;
+    text-shadow: 0em 0.1875em 0.1875em rgba(255, 255, 255, 0.4), 0em -0.0625em 0.0625em rgba(0, 0, 0, 0.3);
+    margin: 0%;
+}
+
+div.sticky {
+    position: sticky;
+    border-bottom: 0.125em solid black;
+    top: 0;
+    background: white;
+}
+
+.cuerpo2 {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    border-radius: .5em;
+    margin-bottom: 1%;
+    border-width: .2em;
+    background-color: #DEF0F3;
+    border-style: groove;
+    border-color: threedface;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B0E0E6;
+    text-align: center;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: black;
+    padding: 0.875em 1em;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    background-color: rgb(0, 128, 122);
+}
+
+/* menu desplegable */
+
+#menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background: #B0E0E6;
+    padding: 0;
+    border-left: solid 0.125em #000000;
+    border-right: solid 0.125em #000000;
+    border-bottom: solid 0.125em #000000;
+    text-align: center;
+}
+
+/* items del menu desplegable */
+
+#menu ul ul li {
+    float: none;
+    width: 6.25em;
+}
+
+/* enlaces de los items del menu desplegable */
+
+#menu ul ul a {
+    line-height: 120%;
+    padding: 0.625em 0.9375em;
+}
+
+/* items del menu desplegable al pasar el ratón */
+
+#menu ul li:hover>ul {
+    display: block;
+}
+
+.ImgUS {
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 8.75em;
+    height: 8.75em;
+    opacity: 0.9;
+}
+
+div.pie {
+    text-align: center;
+}
+
+
+div.col1{
+	float:left;
+	padding: 2%;
+}
+div.col1padd{
+	padding-left: 20%;
+}
+
+div.col3{
+	padding: 2%;
+}
+
+div.margen{
+	margin-top: 1%;
+	margin-left:10%;
+	margin-right:10%;
+	font-size:120%;
+}
+
+.titulo{
+	text-align: center;
+    color: #000000;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    text-decoration: underline;
+}
+
+.titulo2{
+    text-align: center;
+    color: #000000;
+    text-decoration: underline;
+}
+
+.centro{
+    margin:0.625em auto;
+	display:block;
+}
+
+.margenGeneral {
+    margin-top: 0.625em;
+}
+
+/*Inicio de Sesión*/
+main.mainInSes {
+	margin: 5% 20% 0% 20%;
+}
+
+fieldset.fieldInSes{
+    border-radius: 1em;
+    margin-bottom: 1%;
+    border-width: .2em;
+    background-color: #DEF0F3;
+    padding: 2%;
+}
+
+input.botonInSes{
+	margin-bottom: 1%;
+}
+
+input.botonInSesEmail{
+	margin-bottom: 1%;
+	margin-left: 2.5em;
+}
+

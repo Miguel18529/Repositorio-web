@@ -1,0 +1,23 @@
+img.centrarSer{
+    margin:0.625em auto;
+	display:block;
+	border-color: black;
+    border-style: solid;
+	border-width: 0.1875em;
+	width: 18.75em;
+	height: 12.5em;
+}
+
+img.centrar2Ser{
+    margin:0.625em auto;
+	display:block;
+	border-color: black;
+    border-style: solid;
+	border-width: 0.1875em;
+	width: 25.75em;
+	height: 12.5em;
+	margin-top:0.625em; 
+	border: none;
+	border-radius: 16%;
+	box-shadow: 2px 2px 5px #999;
+}

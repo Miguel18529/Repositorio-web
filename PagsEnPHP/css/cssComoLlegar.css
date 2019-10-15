@@ -1,0 +1,43 @@
+#all{
+    width:100%;
+    float:left;
+    text-align:center;
+}
+
+.cuerpo2CLL{
+	padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    border-radius: .5em;
+    margin-bottom: 1%;
+    border-width: .2em;
+    background-color: #DEF0F3;
+    border-style: groove;
+    border-color: threedface;
+}
+iframe {
+    width: 78%;
+    height: 20.75em;
+    margin: 0 auto;
+    border: 0.1125em solid gray;
+}
+
+address{
+    margin-top: .5%;
+    font-size: 1em;
+    text-align: left;
+    margin-left: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+h2.ubi-textCLL{
+	margin: 1em;
+	margin-bottom: 5%;
+	text-align: center;
+	text-decoration: underline;
+}
+

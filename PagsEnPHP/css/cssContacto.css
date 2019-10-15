@@ -1,0 +1,42 @@
+.margenFormularioContacto {
+    padding: 2%;
+    border-style: solid;
+    border-color: grey;
+    margin: 2%;
+    background-color: lightblue;
+    border-width: 1%; 
+}
+
+p.textoContacto{
+   border: 0.125em solid black;
+   margin-right: 50em;
+   padding-left: 0.25em;
+   margin-bottom: 0.625em;
+   background-color: #FFFFFF;
+}
+
+h2.hContacto{
+	text-decoration: underline;
+}
+
+section.secM{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+input.margenContactoNOM{
+	margin-left: 5em;
+	margin-top: 0.625em;
+}
+input.margenContactoPA{
+	margin-left: 1.2em;
+	margin-top: 0.625em;
+}
+input.margenContactoSA{
+	margin-left: 0.85em;
+	margin-top: 0.625em;
+}
+
+input.margenContactoAS{
+	margin-left: 5.5em;
+	margin-top: 0.625em;
+}

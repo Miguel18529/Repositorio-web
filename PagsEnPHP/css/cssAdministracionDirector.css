@@ -1,0 +1,106 @@
+button.buttonAD{
+    float: left;
+    background-color: #16A5BE ;
+    border: none;
+    border-radius: 2%;
+}
+
+button#editar, button#modificar{
+    margin-right: .5em;
+    width: 3%;
+    height: 25px;
+    font-style: italic;
+    font-size: 100%;
+}
+
+button#borrar{
+    margin-right: 1em;
+    width: 3%;
+}
+
+div.cuadroAD{
+    border-radius: 1em;
+    margin-bottom: 1%;
+    border-width: .2em;
+    background-color: #DEF0F3;
+    padding: 2%;
+    padding-bottom: 2%;
+    border-width: 0.125em;
+    border-color: black;
+    border-style: solid;
+    padding-bottom: 0em;	
+}
+
+
+div.pagAD{
+	text-decoration: underline;
+}
+
+span.TextoBorrar{
+    margin-left: 0.3%;
+}
+
+span.TextoNombre{
+    margin-left: 0.6%;
+}
+
+span.TextoApellido1{
+    margin-left: 7.4%;    
+}
+
+span.TextoApellido2{
+    margin-left: 3.4%;    
+}
+
+span.TextoSexo{
+    margin-left: 2.3%;
+}
+
+span.TextoFecha1{
+    margin-left: 8.9%;
+}
+
+span.TextoFecha2{
+    margin-left: 4.2%;
+}
+
+div.DescripcionBotones{
+    border-bottom: 0.125em solid grey;
+    margin-bottom: 1em;
+}
+
+input#pag_size{
+    float: left;
+}
+
+input[type=number]{
+    height: 5%;
+    margin-top: 0.2%;
+    font-size: 14px;
+}
+
+
+a#pagina{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: .2em;
+    font-style: oblique;
+}
+
+span#pagina{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: .2em;
+    font-style: oblique;
+}
+
+div.pag{
+    margin-top: .2em;
+    background-color: coral;
+    margin-bottom: .2em;
+}
+
+form[method=get]{
+    margin-bottom: 1%
+}
+

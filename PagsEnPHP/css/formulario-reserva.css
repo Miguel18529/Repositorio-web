@@ -1,0 +1,320 @@
+/*
+ * USADO EN: formulario-reserva, Administración_usuario
+ */
+form.formRes{
+    padding: 2%;
+    padding-bottom: 2%;
+}
+
+fieldset.fieldsetRes{
+    border-radius: 1em;
+    border-width: .2em;
+    background-color: #DEF0F3;
+}
+
+section.sectionRes{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2%;
+}
+
+label.labelRes{
+    display:inline-block;
+    float: left;
+    clear: left;
+    text-align: left;
+    padding: .2em;
+}
+
+.Cuerpo{
+    border-width: 0.125em;
+    border-color: black;
+    border-style: solid;
+    margin-top: 2.5em;
+    margin-left: 34.375em;
+    margin-right: 34.375em;
+    margin-bottom: 3.125em;
+    padding-bottom: 0em;
+}
+.margenFormulario {
+    padding: 0.625em;
+    border-style: solid;
+    border-color: black;
+    margin: 2cm;
+    background-color: white;
+}
+.margenSexo {
+    margin-right: 1.875em;
+}
+
+div.alineacion{
+	margin-top: 2%;
+	margin-bottom: 2%; 
+	padding: 5%;
+}
+
+div.admin1{
+	margin-right: 7%;
+	margin-left: 7%;
+}
+
+div.admin2{
+	margin-top: 2%; 
+	margin-bottom: 2%; 
+	text-align: end;
+}
+
+p.adminP{
+    text-align: left;
+}
+
+img.adminI{
+	height: 5%;
+	width: 5%;
+	margin-right: 5%; 
+	margin-bottom: 0%; 
+    float: left;
+}
+
+label.adminL{
+	text-align: left;
+	display:inline-block;
+    float: left;
+    clear: left;
+    text-align: left;
+    padding: .2em;
+    }
+
+section.adminS{
+	margin-bottom: 1%;
+	margin-top: 1%;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0.625em;
+}
+
+section.adminS2{
+	margin-right: 20%;
+	margin-left: 20%;
+    margin-bottom: 5%;
+    border-bottom: .2em;
+    border-color: black;
+    border-width: 1em;
+    display: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0.625em;
+}
+
+span.adminP2{
+    text-align: left;
+    
+    
+}
+
+span.adminP3{
+    text-align: right;
+    margin-left: 50%;
+    
+}
+
+p.adminP4{
+	margin-top: 20%;
+	text-align: left;
+}
+
+
+span.error{
+    font-style: normal;
+    color: red;
+}
+
+span.TextosPass{
+    margin-left: 3em;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span.TextoDNI{
+    margin-left: 1em;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span.colorSpan{
+	position: absolute;
+	color: #FF0000;
+	margin-left: 1em;
+}
+
+input.FR_Ajuste_DNI{
+	margin-left: 7.45em;
+}
+
+input.FR_Ajuste_NOM{
+	margin-left: 5.3em;
+	margin-top:2%;
+}
+
+input.FR_Ajuste_PA{
+	margin-left: 1.3em;
+	margin-top:2%;
+}
+
+input.FR_Ajuste_SA{
+	margin-left: .5em;
+	margin-top:2%;
+}
+
+input.FR_Ajuste_Pob{
+	margin-left: 4.9em;
+	margin-top:2%;
+}
+
+input.FR_Ajuste_Pos{
+	margin-left: 2.5em;
+	margin-top:2%;
+}
+
+select.FR_Ajuste_Pais{
+	margin-left: 7.3em;
+	width: 30.5%;
+	margin-top:2%;
+}
+
+select.P_Ajuste_Hora{
+	margin-left: 0.3em;
+	width: 30.5%;
+	margin-top:2%;
+	margin-bottom:3%;
+	
+	
+}
+
+input.FR_Ajuste_Dom{
+	margin-left: 5em;
+	margin-top:2%;
+}
+
+input.FR_Ajuste_Correo{
+	margin-left: 6.83em;
+	margin-top:2%;
+}
+
+input.FR_Ajuste_CorreoTA{
+	margin-left:0.5em;
+	margin-top:2%;
+}
+
+input.FR_Ajuste_Password{
+	margin-left:11.25em;
+	margin-top:2%;
+}
+
+input.FR_Ajuste_ConPassword{
+	margin-left:6em;
+	margin-top:2%;
+}
+
+input.FR_Ajuste_entrada{
+	margin-left:7.7em;
+	margin-top:2%;
+}
+
+input.FR_Ajuste_salida{
+	margin-left:8.4em;
+	margin-top:2%;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+div.divForm{
+	float:left;
+	display:block;
+	padding-bottom: 0%;
+	grid-area: left;
+}
+div.divFormO{
+	float:right;
+	display:block;
+	grid-area: right;
+}
+ label.labelResCom{
+ 	display:inline-block;
+    float: left;
+    clear: left;
+    text-align: left;
+    padding: .2em;
+    margin-bottom: 5.5%;
+ }
+
+.gridFR{
+	display:grid;
+	grid-template:
+    'left left left right right right right right';
+}
+
+
+
+
+
+
+.gridPerfil{
+	padding: 2%;
+    padding-bottom: 2%;
+	border-radius: 1em;
+    background-color: #DEF0F3;
+	margin-top: 3%;
+	border-style: groove;
+	border-color: threedface;
+	margin-left: 2%;
+	display:grid;
+	grid-template:
+    'left left left right right right';
+}
+
+img.imgPerfil{
+	margin-left: 5%;
+	margin-right: 2%;
+	margin-top: 3%;
+	float:left;
+	width: 5%;
+	border-width: 0.125em;
+    border-color: black;
+    border-style: solid;
+}
+
+div.divPerfilLeft{
+	float:left;
+	display:block;
+	padding-bottom: 0%;
+	grid-area: left;
+}
+div.divPerfilRight{
+	float:right;
+	display:block;
+	grid-area: right;
+}
+
+section.sectionPerfil1{
+	margin-bottom: 2%;
+	font-size: 105%;
+	font-weight:bold;
+	text-decoration: underline;
+}
+
+section.sectionPerfil2{
+	margin-bottom: 2.2%;
+	
+}
+
+form.formPer{
+	margin-top: 3%;
+    padding: 2%;
+    padding-bottom: 2%;
+    
+}
+
+div.mensajePerfil{
+	margin-top: 3%;
+	display: block;
+}
